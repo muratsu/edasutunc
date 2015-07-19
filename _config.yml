@@ -1,0 +1,24 @@
+name: Eda SUTUNC
+author: Eda Sutunc
+baseurl: ""
+description: "art student"
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
+email: rnpatel[at]me.com
+location: 42°2'16"N   70°12'47"W
+
+markdown: redcarpet
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
