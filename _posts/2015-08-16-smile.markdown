@@ -1,0 +1,15 @@
+---
+title: Smile for the camera
+date: 2015-08-16 13:21:00
+categories: installation
+---
+
+According to Family and Social policies Ministry data, which does not include unofficial marriages, in the past 11 years in Turkey, more than 500,000 girls under the age of 17 were married.
+
+This project is a performance/installation. The artist is posing for the camera before her wedding.
+
+On the dress, the confessions of children brides are sewed.
+
+### Pictures
+
+![screenshot]({{ site.baseurl }}/images/gelin.jpg)
