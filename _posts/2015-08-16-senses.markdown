@@ -4,12 +4,14 @@ date: 2015-08-16 13:21:00
 categories: sculpture
 ---
 
-Can we ever know how another person ‘senses’ the World? is a reproduction of a  face fraction of the famous David masterpiece by Michalengelo.
+Can we ever know how another person ‘senses’ the World? is a reproduction of a face fraction of the famous David masterpiece by Michalengelo.
 
 With this piece the artist investigates the form of art. Where does sensation leave off and perception begins? Can you ever copy an art work? Even the form is exactly the same, is an artwork only a form?
 
-### Pictures
-
 ![screenshot]({{ site.baseurl }}/images/senses1.jpg)
+
+
 ![screenshot]({{ site.baseurl }}/images/senses2.jpg)
+
+
 ![screenshot]({{ site.baseurl }}/images/senses3.jpg)
