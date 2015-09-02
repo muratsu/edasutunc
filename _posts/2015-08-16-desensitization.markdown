@@ -10,5 +10,4 @@ Today we are being bombarded by mainstream media news, which are often being cen
 
 This piece is created from newspaper fragments, pasted to a television screen.
 
-
 ![screenshot]({{ site.baseurl }}/images/desensitization.jpg)
