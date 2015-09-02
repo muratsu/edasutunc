@@ -8,6 +8,8 @@ Can we ever know how another person ‘senses’ the World? is a reproduction of
 
 With this piece the artist investigates the form of art. Where does sensation leave off and perception begins? Can you ever copy an art work? Even the form is exactly the same, is an artwork only a form?
 
+This piece is installed onto a wood, a fraction of a tree.
+
 ![screenshot]({{ site.baseurl }}/images/senses1.jpg)
 
 
