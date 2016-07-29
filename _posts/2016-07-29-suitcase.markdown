@@ -1,0 +1,28 @@
+---
+title: Suitcase
+date: 2016-07-29 13:21:00
+categories: installation
+---
+
+![screenshot]({{ site.baseurl }}/images/suitcase1.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase2.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase3.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase4.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase5.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase6.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase7.jpg)
+
+
+![screenshot]({{ site.baseurl }}/images/suitcase8.jpg)
