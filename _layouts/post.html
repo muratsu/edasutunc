@@ -3,11 +3,12 @@ layout: default
 ---
 <div id="article">
   <div class="article-title">{{ page.title }}</div>
-  <p class="meta">
+  <!-- <p class="meta">
     <small>
       &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
     </small>
-  </p> <hr/>
+  </p> -->
+  <hr/>
   <div class="post">
     {{ content }}
   </div>
@@ -20,7 +21,11 @@ layout: default
 
     // Initialize Galleria
     if ($('#galleria').is('div')) {
-      Galleria.run('#galleria', { lightbox: true });
+      Galleria.run('#galleria', {
+        lightbox: true,
+        showImagenav: false,
+        responsive: true
+      });
     }
   });
 </script>
