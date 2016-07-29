@@ -10,4 +10,11 @@ Today we are being bombarded by mainstream media news, which are often being cen
 
 This piece is created from newspaper fragments, pasted to a television screen.
 
-![screenshot]({{ site.baseurl }}/images/desensitization.jpg)
+<div id="galleria">
+  <a href="{{ site.baseurl }}/images/default/desensitization.jpg">
+    <img
+      src="{{ site.baseurl }}/images/thumbnail/desensitization.jpg"
+      data-big="{{ site.baseurl }}/images/raw/desensitization.jpg"
+    >
+  </a>
+</div>

@@ -10,10 +10,13 @@ Self-censorship is an act that an artist does by classifiying own artwork in def
 
 Being born in Istanbul, Turkey the artist strives not to censor her artwork in any condition that may happen in topics that the government may find controversial.
 
-![screenshot]({{ site.baseurl }}/images/conscience1.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/conscience2.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/conscience3.jpg)
+<div id="galleria">
+{% for i in (1..3) %}
+    <a href="{{ site.baseurl }}/images/default/conscience{{ i }}.jpg">
+      <img
+        src="{{ site.baseurl }}/images/thumbnail/conscience{{ i }}.jpg"
+        data-big="{{ site.baseurl }}/images/raw/conscience{{ i }}.jpg"
+      >
+    </a>
+{% endfor %}
+</div>

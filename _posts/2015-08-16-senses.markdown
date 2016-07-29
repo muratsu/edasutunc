@@ -10,10 +10,13 @@ With this piece the artist investigates the form of art. Where does sensation le
 
 This piece is installed onto a wood, a fraction of a tree.
 
-![screenshot]({{ site.baseurl }}/images/senses1.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/senses2.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/senses3.jpg)
+<div id="galleria">
+{% for i in (1..3) %}
+    <a href="{{ site.baseurl }}/images/default/senses{{ i }}.jpg">
+      <img
+        src="{{ site.baseurl }}/images/thumbnail/senses{{ i }}.jpg"
+        data-big="{{ site.baseurl }}/images/raw/senses{{ i }}.jpg"
+      >
+    </a>
+{% endfor %}
+</div>

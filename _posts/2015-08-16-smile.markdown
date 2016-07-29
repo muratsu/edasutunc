@@ -10,4 +10,11 @@ This project is a performance/installation. The artist is posing for the camera 
 
 On the dress, the confessions of children brides are sewed.
 
-![screenshot]({{ site.baseurl }}/images/gelin.jpg)
+<div id="galleria">
+  <a href="{{ site.baseurl }}/images/default/gelin.jpg">
+    <img
+      src="{{ site.baseurl }}/images/thumbnail/gelin.jpg"
+      data-big="{{ site.baseurl }}/images/raw/gelin.jpg"
+    >
+  </a>
+</div>

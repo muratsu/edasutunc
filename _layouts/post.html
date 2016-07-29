@@ -13,3 +13,14 @@ layout: default
   </div>
 </div>
 {% include share.html %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Load the classic theme
+    Galleria.loadTheme('{{ site.baseurl }}/js/galleria.classic.js');
+
+    // Initialize Galleria
+    if ($('#galleria').is('div')) {
+      Galleria.run('#galleria', { lightbox: true });
+    }
+  });
+</script>

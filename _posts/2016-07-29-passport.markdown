@@ -4,19 +4,13 @@ date: 2016-07-29 13:21:00
 categories: installation
 ---
 
-![screenshot]({{ site.baseurl }}/images/passport1.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/passport2.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/passport3.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/passport4.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/passport5.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/passport6.jpg)
+<div id="galleria">
+{% for i in (1..6) %}
+    <a href="{{ site.baseurl }}/images/default/passport{{ i }}.jpg">
+      <img
+        src="{{ site.baseurl }}/images/thumbnail/passport{{ i }}.jpg"
+        data-big="{{ site.baseurl }}/images/raw/passport{{ i }}.jpg"
+      >
+    </a>
+{% endfor %}
+</div>

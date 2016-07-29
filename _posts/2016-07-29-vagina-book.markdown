@@ -4,16 +4,14 @@ date: 2016-07-29 13:21:00
 categories: installation
 ---
 
-![screenshot]({{ site.baseurl }}/images/vag1.jpg)
+<div id="galleria">
+{% for i in (1..5) %}
+    <a href="{{ site.baseurl }}/images/default/vag{{ i }}.jpg">
+      <img
+        src="{{ site.baseurl }}/images/thumbnail/vag{{ i }}.jpg"
+        data-big="{{ site.baseurl }}/images/raw/vag{{ i }}.jpg"
+      >
+    </a>
+{% endfor %}
+</div>
 
-
-![screenshot]({{ site.baseurl }}/images/vag2.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/vag3.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/vag4.jpg)
-
-
-![screenshot]({{ site.baseurl }}/images/vag5.jpg)
