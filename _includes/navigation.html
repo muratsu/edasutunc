@@ -16,9 +16,19 @@
         {% for item in installationPosts %}
             <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
         {%endfor%}
+        <li><b>Artists’ Books</b></li>
+        {% assign artistsbooks = site.categories.artistsbooks %}
+        {% for item in artistsBooks %}
+            <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+        {%endfor%}
         <li><b>Video</b></li>
         {% assign videoPosts = site.categories.video %}
         {% for item in videoPosts %}
+            <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+        {%endfor%}
+        <li><b>Performance</b></li>
+        {% assign performancePosts = site.categories.performance %}
+        {% for item in performancePosts %}
             <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
         {%endfor%}
         <li><b>Sculpture</b></li>
@@ -42,9 +52,19 @@
     {% for item in installationPosts %}
         <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
     {%endfor%}
+    <li><b>Artists’ Books</b></li>
+    {% assign artistsBooks = site.categories.artistsbooks %}
+    {% for item in artistsBooks %}
+        <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+    {%endfor%}
     <li><b>Video</b></li>
     {% assign videoPosts = site.categories.video %}
     {% for item in videoPosts %}
+        <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+    {%endfor%}
+    <li><b>Performance</b></li>
+    {% assign performancePosts = site.categories.performance %}
+    {% for item in performancePosts %}
         <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
     {%endfor%}
     <li><b>Sculpture</b></li>
