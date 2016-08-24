@@ -31,6 +31,11 @@
         {% for item in performancePosts %}
             <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
         {%endfor%}
+        <li><b>Photography</b></li>
+        {% assign photographyPosts = site.categories.photography %}
+        {% for item in photographyPosts %}
+            <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+        {%endfor%}
         <li><b>Sculpture</b></li>
         {% assign sculpturePosts = site.categories.sculpture %}
         {% for item in sculpturePosts %}
@@ -60,6 +65,11 @@
     <li><b>Video</b></li>
     {% assign videoPosts = site.categories.video %}
     {% for item in videoPosts %}
+        <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
+    {%endfor%}
+    <li><b>Photography</b></li>
+    {% assign photographyPosts = site.categories.photography %}
+    {% for item in photographyPosts %}
         <li><a href="{{ item.url }}">&nbsp;&nbsp;{{item.title}}</a></li>
     {%endfor%}
     <li><b>Performance</b></li>
