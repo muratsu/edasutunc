@@ -4,4 +4,17 @@ date: 2015-08-16 13:21:00
 categories: performance
 ---
 
-<img src="{{ site.baseurl }}/images/raw/yasak.jpg">
+According to Family and Social policies Ministry data, which does not include unofficial marriages, in the past 11 years in Turkey, more than 500,000 girls under the age of 17 were married.
+
+This project is a performance/installation. The artist is posing for the camera before her wedding.
+
+On the dress, the confessions of children brides are sewed.
+
+<div id="galleria">
+  <a href="{{ site.baseurl }}/images/default/gelin.jpg">
+    <img
+      src="{{ site.baseurl }}/images/thumbnail/gelin.jpg"
+      data-big="{{ site.baseurl }}/images/raw/gelin.jpg"
+    >
+  </a>
+</div>
