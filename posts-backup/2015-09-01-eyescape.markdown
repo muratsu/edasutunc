@@ -1,0 +1,9 @@
+---
+title: "Eyescape"
+date: 2015-09-01 12:55:16
+categories: performance
+---
+
+Eyescape explores our unconscious and conscious will to stare at the people around us in public transportation. Civil inattention is the process whereby strangers who are in close proximity demonstrate that they are aware of one another, without imposing their presence on each other. We want to look at each other, but if we are "civilized", we try not to. Eyes cape is depicting our will to look at other people.
+
+<iframe src="https://player.vimeo.com/video/135237134" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%; height:281px"></iframe>
