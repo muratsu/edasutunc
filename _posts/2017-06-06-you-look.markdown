@@ -1,0 +1,16 @@
+---
+title: You Look
+date: 2017-06-06 10:14:00
+categories: works
+---
+
+<div id="galleria">
+{% for i in (1..4) %}
+    <a href="{{ site.baseurl }}/images/default/youlook{{ i }}.jpg">
+      <img
+        src="{{ site.baseurl }}/images/thumbnail/youlook{{ i }}.jpg"
+        data-big="{{ site.baseurl }}/images/raw/youlook{{ i }}.jpg"
+      >
+    </a>
+{% endfor %}
+</div>

@@ -1,7 +1,0 @@
----
-title: Turkey is my country
-date: 2017-02-21 10:14:00
-categories: performance
----
-
-<iframe src="https://player.vimeo.com/video/201065693" style="width: 100%; height:334px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
